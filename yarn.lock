@@ -8421,6 +8421,11 @@ react-scripts@3.4.0:
   optionalDependencies:
     fsevents "2.1.2"
 
+react-shuttler@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/react-shuttler/-/react-shuttler-1.0.8.tgz#6e3cb7493d6e16e10fbb0803700cb8b477b8e7bd"
+  integrity sha512-6P9XycrCD5Xin8B+iMmOxCHSM1cIFGbPhGqRO+W3kIFf0czJUw/DB2GyhL+/S814E4nGBUwi6tSQqrS58Ja/sw==
+
 react@^16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
@@ -9104,6 +9109,19 @@ shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
+
+shuttler-framework@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/shuttler-framework/-/shuttler-framework-0.0.15.tgz#7dd04a6404d521f459c89b383f8cd8253812125f"
+  integrity sha512-vQuibV1mIQa3QQNg7jPzYNtgHXAxfXrPSUq9eQM3uqT7fPFknHTJMqjHLYLVZ37EIhO0NTUrsEvyqiR/jqNzQQ==
+  dependencies:
+    shuttlerjs "^1.1.9"
+    uuid "^3.4.0"
+
+shuttlerjs@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/shuttlerjs/-/shuttlerjs-1.1.9.tgz#fb42e2141cfa58e0cf612d2704899f8caa1036c9"
+  integrity sha512-vbaDBo2TInQZQHEuIye0edzFUbZZrL7z+LZP9KxZ9jRwsp2W+iuM1Kshf4+ArXxXFIVwIz81KIS3EfyOKVQhMA==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -10049,7 +10067,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.3.2, uuid@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==

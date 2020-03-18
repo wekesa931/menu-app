@@ -13,6 +13,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
+    "react-shuttler": "^1.0.8",
+    "shuttler-framework": "^0.0.15",
     "typescript": "~3.7.2"
   },
   "scripts": {
